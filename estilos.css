@@ -7,14 +7,18 @@
   text-decoration: none;
 }
 
+:root {
+  --pColor: #0c0029;
+  --sColor: #6521ff;
+}
 body {
   font-family: "Ubuntu", sans-serif;
-  background: #0c0029;
+  background: var(--pColor);
 }
 
 header {
-  background: #6521ff;
-  height: 100px;
+  background: var(--sColor);
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,4 +42,58 @@ header {
 .nav-link:hover {
     text-decoration: underline;
 
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    height: 100vh;
+    padding: 20px;
+}
+
+.first-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    gap: 40px;
+    
+
+}
+.slogan {
+    font-size: 2em;
+}
+.img-inn {
+    align-self: flex-end;
+    height: 70vh;
+}
+
+.first-container a {
+  text-decoration: none;
+  color:whitesmoke;
+  border: 1px solid white;
+  background: var(--sColor);
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+
+.first-container a:hover {
+  background: white;
+  color: var(--sColor);
+}
+
+.first-container p{
+  width: 450px;
+  text-align: justify;
+  text-justify: distribute;
+}
+
+.second-section p{
+ color: white;
+ padding: 20px;
+ text-align: justify;
+ text-justify: distribute;
 }
