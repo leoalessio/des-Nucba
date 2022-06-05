@@ -46,9 +46,11 @@ header {
 
 .first-section {
     display: flex;
-    flex-direction: row;
     color: whitesmoke;
-    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* me pidieron sacar el height
+    height: 100vh;*/ 
     padding: 20px;
 }
 
@@ -57,7 +59,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 40px;
+    padding:  40px;
     gap: 40px;
     
 
