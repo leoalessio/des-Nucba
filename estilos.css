@@ -10,8 +10,11 @@
 :root {
   --pColor: #0c0029;
   --sColor: #6521ff;
+  --bold: 500;
+  --regular: 300;
 }
 body {
+width: 100vw;
   font-family: "Ubuntu", sans-serif;
   background: var(--pColor);
 }
@@ -70,6 +73,7 @@ header {
 .img-inn {
     align-self: flex-end;
     height: 70vh;
+    width: 50vw;
 }
 
 .first-container a {
@@ -93,9 +97,72 @@ header {
   text-justify: distribute;
 }
 
-.second-section p{
- color: white;
- padding: 20px;
- text-align: justify;
- text-justify: distribute;
+.ventajas-section {
+  color:white;
+  text-align: center;
+  padding: 10px;
+}
+
+.ventajas-section h2 {
+  padding: 1rem;
+}
+.icon {
+  color: white;
+}
+.beneficios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+  height: 200px;
+}
+.img-beneficios{
+  
+  width: 70px;
+  height: 70px;
+}
+.ventajas {
+  padding: 10px 50px 20px 50px;
+}
+.beneficio1 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+}
+.beneficio2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ }
+.beneficio3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ }
+
+ .how-work-section {
+  color:white;
+  text-align: center;
+  padding: 10px;
+}
+
+.how-work-section h2{
+  padding: 1rem;
+}
+
+.como-trabajamos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.pasos-h3 {
+  padding-bottom: 10px;
 }
